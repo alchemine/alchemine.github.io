@@ -152,7 +152,7 @@ Monte-Carlo Genetic Algorithm을 이용하여 목적함수를 최적화시키는
 3. **자본 할당(Capital Allocation)** <br>
 Differential Evolution을 이용하여 목적함수를 최적화시키는 편입비율을 할당
 4. **포트폴리오 필터링(Portfolio Filtering)** <br>
-생성된 포트폴리오들 중 상위 포트폴리오들(목적함수 기준)에 대하여 필터링 조건(목적함수와 다른 지표)이 최적인 포트폴리오를 선택 \
+생성된 포트폴리오들 중 상위 포트폴리오들(목적함수 기준)에 대하여 필터링 조건(목적함수와 다른 지표)이 최적인 포트폴리오를 선택 <br>
 적절한 필터링 조건은 일반화 성능을 높이는데 큰 역할을 한다
 5. **앙상블 학습 알고리즘**
     1. **데이터 분할** <br>
@@ -164,10 +164,12 @@ Differential Evolution을 이용하여 목적함수를 최적화시키는 편입
     4. **최종 포트폴리오 선택** <br>
     계산된 지표의 평균을 각 목적함수의 가중치로 하여 가중평균된 포트폴리오를 최종 포트폴리오로 선택
 6. **최종 결과** <br>
-  2016년~2020년 약 5년 간 S&P500과 비교하여 평균적으로 27% 높은 Sharp ratio, 225% 높은 [VWR](https://www.crystalbull.com/sharpe-ratio-better-with-log-returns/)을 보여주었음
-  ![](https://github.com/alchemine/alchemine.github.io/blob/master/images/about/3.png?raw=true)
+2016년~2020년 약 5년 간 S&P500과 비교하여 평균적으로 27% 높은 Sharpe ratio, 225% 높은 [VWR](https://www.crystalbull.com/sharpe-ratio-better-with-log-returns/)을 보여주었음
+![picture 2](images/98bb73c72a36c0e243b243758ec306ec5a2ec543653dce6d5f574b5227bd11e5.png)  
+  
 </div>
 </details>
+
 
 ---
 
