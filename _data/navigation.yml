@@ -85,6 +85,8 @@ docs-en:
         url: /archive.html?tag=Python
       - title:  Design Patterns
         url: /archive.html?tag=DesignPatterns
+      - title:  Database
+        url: /archive.html?tag=Database
       
 
       
@@ -96,8 +98,7 @@ docs-en:
         url: /archive.html?tag=PyTorch
       - title:  Hands-On ML
         url: /archive.html?tag=Hands-On
-      - title:  Database
-        url: /archive.html?tag=Database
+
       - title:  Visualization
         url: /archive.html?tag=Visualization
       - title:  Linux
