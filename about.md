@@ -184,15 +184,14 @@ Dask 기반 분산/병렬 처리를 편리하게 사용할 수 있도록 만든 
 ## 5. Prepared CUDA based Image for Machine Learning Project
 Machine learning을 위한 CUDA 기반 docker image
 
-- [https://github.com/alchemine/base_env](https://github.com/alchemine/base_env)
+- [https://github.com/alchemine/base](https://github.com/alchemine/base)
 - [https://hub.docker.com/repository/docker/djyoon0223/base](https://hub.docker.com/repository/docker/djyoon0223/base)
 - **Tag**
   1. `djyoon0223/base:basic`
-     - `base`: `jupyter`
   2. `djyoon0223/base:caret`
-     - `caret`: `jupyter` + `rapids(cudf, cuml)=22.02` + `pycaret=3.0.0`
+     - `caret`: `basic` + `pycaret`
   3. `djyoon0223/base:tf_torch`
-     - `tf_torch`: `jupyter` + `rapids=22.02` + `tensorflow=2.9.1` + `torch=1.12` + `torchvision=0.13` + `torchaudio=0.12`
+     - `tf_torch`: `basic` + `tensorflow` + `pytorch`
   4. `djyoon0223/base:full`
      - `caret`: `djyoon0223/base:caret`
      - `tf_torch`: `djyoon0223/base:tf_torch`
