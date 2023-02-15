@@ -102,9 +102,10 @@ eda.plot_features_target(data, target)
   8. 가장 correlation이 높은 lag값을 선택하여 lagged, moving average feature를 생성
   9. MinMax Scaling
   ```
-1. Raw data \
+  
+  1. Raw data
   ![](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/assets/data_prev.png?raw=true)
-2. Processed data \
+  2. Processed data
   ![](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/assets/data_post.png?raw=true)
 
 </div>
@@ -116,21 +117,20 @@ eda.plot_features_target(data, target)
 
 - [https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC/source%20code/main_transformer.ipynb](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC/source%20code/main_transformer.ipynb)
 - [Transformers for Time Series](https://github.com/maxjcohen/transformer)
-    ```
-    Transformer model을 사용
-      f: Xy[t-i:t] -> y[t+1:t+j]
-    ```
+  ```
+  Transformer model을 사용
+    f: Xy[t-i:t] -> y[t+1:t+j]
+  ```
 </div>
 </details>
 
 <details>
 <summary><b> 3) Results </b></summary>
 <div markdown="1">
-
-1. Training set \
-  ![](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/assets/transformer_training.png?raw=true)
-2. Validation set \
-  ![](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/assets/transformer_validation.png?raw=true)
+1. Training set
+![](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/assets/transformer_training.png?raw=true)
+2. Validation set
+![](https://github.com/Inha-Competition-Team/spatio-temporal/blob/main/assets/transformer_validation.png?raw=true)
 </div>
 </details>
 
@@ -196,10 +196,10 @@ Machine learning을 위한 CUDA 기반 docker image
      - `tf_torch`: `djyoon0223/base:tf_torch`
 
 {% highlight bash linenos %}
-$ docker pull djyoon0223/base:basic
-$ docker pull djyoon0223/base:caret
-$ docker pull djyoon0223/base:tf_torch
-$ docker pull djyoon0223/base:full
+docker pull djyoon0223/base:basic
+docker pull djyoon0223/base:caret
+docker pull djyoon0223/base:tf_torch
+docker pull djyoon0223/base:full
 {% endhighlight %}
 
 ---
