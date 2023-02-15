@@ -30,7 +30,7 @@ key: page-about
 - Name: 윤동진(Dongjin Yoon)
 - Email: djyoon0223@gmail.com
 - Github: [https://github.com/alchemine](https://github.com/alchemine)
-- Blog: [https://alchemine.github.io/](https://alchemine.github.io/)
+- Blog: [https://alchemine.github.io](https://alchemine.github.io)
 - Docker Hub: [https://hub.docker.com/search?q=djyoon0223](https://hub.docker.com/search?q=djyoon0223)
 - Skills
   - Python (TensorFlow, PyTorch, Scikit-learn, Matplotlib, Numba, CUDA, Dask), R, C/C++
