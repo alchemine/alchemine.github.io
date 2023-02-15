@@ -116,12 +116,12 @@ docs-en:
         url: /archive.html?tag=Visualization
       - title:  Natural Language Processing
         url: /archive.html?tag=NLP
-
+      - title:  Recommendation System
+        url: /archive.html?tag=RecommendationSystem
 
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
-      - title:  Recommendation Systems
-        url: /archive.html?tag=Recommendation
+
 
   - title:      Mathematics / Statistics
     children:
