@@ -147,23 +147,23 @@ eda.plot_features_target(data, target)
 <div markdown="1">
 
 1. **3단계 포트폴리오 선택 알고리즘**
-    1. **자산 선택(Asset Selection)** \
-      Monte-Carlo Genetic Algorithm을 이용하여 목적함수를 최적화시키는 종목들로 구성된 동일 가중치 포트폴리오를 다수 생성
-    2. **자본 할당(Capital Allocation)** \
-      Differential Evolution을 이용하여 목적함수를 최적화시키는 편입비율을 할당
-    3. **포트폴리오 필터링(Portfolio Filtering)** \
-      생성된 포트폴리오들 중 상위 포트폴리오들(목적함수 기준)에 대하여 필터링 조건(목적함수와 다른 지표)이 최적인 포트폴리오를 선택 \
-      적절한 필터링 조건은 일반화 성능을 높이는데 큰 역할을 한다
-2. **앙상블 학습 알고리즘**
-  1. **데이터 분할** \
+2. **자산 선택(Asset Selection)** <br>
+Monte-Carlo Genetic Algorithm을 이용하여 목적함수를 최적화시키는 종목들로 구성된 동일 가중치 포트폴리오를 다수 생성
+3. **자본 할당(Capital Allocation)** <br>
+Differential Evolution을 이용하여 목적함수를 최적화시키는 편입비율을 할당
+4. **포트폴리오 필터링(Portfolio Filtering)** <br>
+생성된 포트폴리오들 중 상위 포트폴리오들(목적함수 기준)에 대하여 필터링 조건(목적함수와 다른 지표)이 최적인 포트폴리오를 선택 \
+적절한 필터링 조건은 일반화 성능을 높이는데 큰 역할을 한다
+5. **앙상블 학습 알고리즘**
+  1. **데이터 분할** <br>
   데이터를 여러 개의 학습(training) 데이터와 검증(validation) 데이터 쌍으로 분할
-  2. **포트폴리오 선택** \
+  2. **포트폴리오 선택** <br>
   각 데이터 쌍에 대하여, 여러 개의 목적함수 각각을 최적화시키는 포트폴리오를 선택 (3단계 포트폴리오 선택 알고리즘)
-  3. **목적함수에 대한 가중치 계산** \
+  3. **목적함수에 대한 가중치 계산** <br>
   각 목적함수 별로 검증 데이터에 대한 포트폴리오의 성과지표의 평균을 계산
-  4. **최종 포트폴리오 선택** \
+  4. **최종 포트폴리오 선택** <br>
   계산된 지표의 평균을 각 목적함수의 가중치로 하여 가중평균된 포트폴리오를 최종 포트폴리오로 선택
-3. **최종 결과** \
+6. **최종 결과** <br>
   2016년~2020년 약 5년 간 S&P500과 비교하여 평균적으로 27% 높은 Sharp ratio, 225% 높은 [VWR](https://www.crystalbull.com/sharpe-ratio-better-with-log-returns/)을 보여주었음
   ![](https://github.com/alchemine/alchemine.github.io/blob/master/images/about/3.png?raw=true)
 </div>
