@@ -89,6 +89,8 @@ docs-en:
         url: /archive.html?tag=Database
       - title:  Linux
         url: /archive.html?tag=Linux
+      - title:  Docker
+        url: /archive.html?tag=Docker
      
       
       - title:  Machine Learning
@@ -103,8 +105,6 @@ docs-en:
         url: /archive.html?tag=Visualization
 
 
-      - title:  Docker
-        url: /archive.html?tag=Docker
       - title:  Parallel Computing
         url: /archive.html?tag=Parallel
       - title:  R
