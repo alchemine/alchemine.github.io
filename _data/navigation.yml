@@ -97,6 +97,8 @@ docs-en:
         url: /archive.html?tag=R
       - title:  Coding Test
         url: /archive.html?tag=CodingTest
+      - title:  Git
+        url: /archive.html?tag=Git
       - title:  Base
         url: /archive.html?tag=Programming_Base
       - title:  Etc
@@ -146,20 +148,16 @@ docs-en:
     children:
       - title:  Competition
         url: /archive.html?tag=Competition
-      - title:  Etc
-        url: /archive.html?tag=Project_Etc
 
   - title:      Papers
     children:
-      - title:  Papers
-        url: /archive.html?tag=Papers
+      - title:  Base
+        url: /archive.html?tag=Papers_Base
         
   - title:      Etc
     children:
       - title:  Music
         url: /archive.html?tag=Music
-      - title:  Git
-        url: /archive.html?tag=Git
       - title:  Job
         url: /archive.html?tag=Job
       - title:  Etc
