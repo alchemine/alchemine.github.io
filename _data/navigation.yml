@@ -108,10 +108,10 @@ docs-en:
         url: /archive.html?tag=MachineLearning_Base
       - title:  TensorFlow
         url: /archive.html?tag=TensorFlow
-
-
       - title:  PyTorch
         url: /archive.html?tag=PyTorch
+
+        
       - title:  Hands-On ML
         url: /archive.html?tag=Hands-On
       - title:  Visualization
