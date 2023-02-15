@@ -83,6 +83,11 @@ docs-en:
     children:
       - title:  Python
         url: /archive.html?tag=Python
+      - title:  Design Patterns
+        url: /archive.html?tag=DesignPatterns
+      
+
+      
       - title:  Machine Learning
         url: /archive.html?tag=Prog_ML
       - title:  TensorFlow
@@ -91,8 +96,6 @@ docs-en:
         url: /archive.html?tag=PyTorch
       - title:  Hands-On ML
         url: /archive.html?tag=Hands-On
-      - title:  Design Patterns
-        url: /archive.html?tag=DesignPatterns
       - title:  Database
         url: /archive.html?tag=Database
       - title:  Visualization
