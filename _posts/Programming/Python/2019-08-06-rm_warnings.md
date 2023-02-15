@@ -1,6 +1,6 @@
 ---
 title: Ignore warnings
-tags: Programming/Python
+tags: Python
 ---
 
 <!--more-->
