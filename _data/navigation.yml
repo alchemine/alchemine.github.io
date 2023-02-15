@@ -119,8 +119,10 @@ docs-en:
       - title:  Recommendation System
         url: /archive.html?tag=RecommendationSystem
 
-      - title:  Finance
-        url: /archive.html?tag=Prog_Finance
+  - title:      Finance
+    children:
+      - title:  Base
+        url: /archive.html?tag=Finance_Base
 
 
   - title:      Mathematics / Statistics
@@ -159,8 +161,6 @@ docs-en:
     children:
       - title:  Music
         url: /archive.html?tag=Music
-      - title:  Finance
-        url: /archive.html?tag=Finance
       - title:  Git
         url: /archive.html?tag=Git
       - title:  Job
