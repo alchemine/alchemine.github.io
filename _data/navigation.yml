@@ -118,8 +118,6 @@ docs-en:
 
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
-      - title:  Neural Network
-        url: /archive.html?tag=NN
       - title:  Recommendation Systems
         url: /archive.html?tag=Recommendation
       - title:  Natural Language Processing
