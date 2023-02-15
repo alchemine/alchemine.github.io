@@ -91,6 +91,8 @@ docs-en:
         url: /archive.html?tag=Linux
       - title:  Docker
         url: /archive.html?tag=Docker
+      - title:  Parallel Computing
+        url: /archive.html?tag=ParallelComputing
      
       
       - title:  Machine Learning
@@ -105,8 +107,6 @@ docs-en:
         url: /archive.html?tag=Visualization
 
 
-      - title:  Parallel Computing
-        url: /archive.html?tag=Parallel
       - title:  R
         url: /archive.html?tag=R
       - title:  Finance
