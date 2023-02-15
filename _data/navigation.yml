@@ -99,8 +99,10 @@ docs-en:
         url: /archive.html?tag=CodingTest
       - title:  Base
         url: /archive.html?tag=Programming_Base
+      - title:  Etc
+        url: /archive.html?tag=Programming_Etc
 
-      
+
       - title:  Machine Learning
         url: /archive.html?tag=Prog_ML
       - title:  TensorFlow
@@ -115,8 +117,6 @@ docs-en:
 
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
-      - title:  Etc
-        url: /archive.html?tag=Prog_Etc
 
   - title:      Machine Learning
     children:
