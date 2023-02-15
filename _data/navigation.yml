@@ -158,5 +158,7 @@ docs-en:
     children:
       - title:  Music
         url: /archive.html?tag=Music
+      - title:  Diary
+        url: /archive.html?tag=Diary
       - title:  Etc
         url: /archive.html?tag=Etc
