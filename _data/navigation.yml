@@ -97,7 +97,9 @@ docs-en:
         url: /archive.html?tag=R
       - title:  Coding Test
         url: /archive.html?tag=CodingTest
-     
+      - title:  Base
+        url: /archive.html?tag=Programming_Base
+
       
       - title:  Machine Learning
         url: /archive.html?tag=Prog_ML
@@ -113,8 +115,6 @@ docs-en:
 
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
-      - title:  CS
-        url: /archive.html?tag=CS
       - title:  Etc
         url: /archive.html?tag=Prog_Etc
 
