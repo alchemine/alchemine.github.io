@@ -110,10 +110,10 @@ docs-en:
         url: /archive.html?tag=TensorFlow
       - title:  PyTorch
         url: /archive.html?tag=PyTorch
-
-        
       - title:  Hands-On ML
-        url: /archive.html?tag=Hands-On
+        url: /archive.html?tag=Hands-On-ML
+
+
       - title:  Visualization
         url: /archive.html?tag=Visualization
       - title:  Finance
