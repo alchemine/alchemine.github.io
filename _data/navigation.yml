@@ -102,9 +102,12 @@ docs-en:
       - title:  Etc
         url: /archive.html?tag=Programming_Etc
 
+  - title:      Machine Learning
+    children:
+      - title:  Base
+        url: /archive.html?tag=MachineLearning_Base
 
-      - title:  Machine Learning
-        url: /archive.html?tag=Prog_ML
+
       - title:  TensorFlow
         url: /archive.html?tag=TensorFlow
       - title:  PyTorch
@@ -113,15 +116,8 @@ docs-en:
         url: /archive.html?tag=Hands-On
       - title:  Visualization
         url: /archive.html?tag=Visualization
-
-
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
-
-  - title:      Machine Learning
-    children:
-      - title:  Theory
-        url: /archive.html?tag=Theory
       - title:  Neural Network
         url: /archive.html?tag=NN
       - title:  Recommendation Systems
