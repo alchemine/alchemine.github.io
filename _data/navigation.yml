@@ -154,11 +154,9 @@ docs-en:
       - title:  Base
         url: /archive.html?tag=Papers_Base
         
-  - title:      Etc
+  - title:      Another Life
     children:
       - title:  Music
         url: /archive.html?tag=Music
-      - title:  Job
-        url: /archive.html?tag=Job
       - title:  Etc
         url: /archive.html?tag=Etc
