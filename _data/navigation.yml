@@ -129,21 +129,18 @@ docs-en:
       - title:  Base
         url: /archive.html?tag=Math_Base
 
-
   - title:      Study
     children:
       - title:  Fluent Python
         url: /archive.html?tag=Study_FluentPython
       - title:  Portfolio with Python
-        url: /archive.html?tag=Study_PortfolioTheory
+        url: /archive.html?tag=Study_PortfolioWithPython
       - title:  Time Series Analysis
         url: /archive.html?tag=Study_TimeSeriesAnalysis
       - title:  Big Data Computing
         url: /archive.html?tag=Study_BigDataComputing
       - title:  Investments
         url: /archive.html?tag=Study_Investments
-      - title:  Common Finance
-        url: /archive.html?tag=Study_CommonFinance
 
   - title:      Projects
     children:
