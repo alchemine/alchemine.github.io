@@ -95,6 +95,8 @@ docs-en:
         url: /archive.html?tag=ParallelComputing
       - title:  R
         url: /archive.html?tag=R
+      - title:  Coding Test
+        url: /archive.html?tag=CodingTest
      
       
       - title:  Machine Learning
@@ -111,8 +113,6 @@ docs-en:
 
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
-      - title:  Coding Test
-        url: /archive.html?tag=CodingTest
       - title:  CS
         url: /archive.html?tag=CS
       - title:  Etc
