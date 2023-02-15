@@ -1,5 +1,7 @@
 ---
 title: Cheetsheet
+sidebar:
+  nav: docs-en
 ---
 
 # 1. Code block(liquid tag)
