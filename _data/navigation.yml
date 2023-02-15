@@ -124,11 +124,11 @@ docs-en:
       - title:  Base
         url: /archive.html?tag=Finance_Base
 
-
   - title:      Mathematics / Statistics
     children:
       - title:  Base
-        url: /archive.html?tag=Math
+        url: /archive.html?tag=Math_Base
+
 
   - title:      Study
     children:
