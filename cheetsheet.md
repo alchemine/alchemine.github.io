@@ -3,16 +3,17 @@ title: Cheetsheet
 ---
 
 # 1. Code block(liquid tag)
-{% highlight markdown linenos %}
-  {% highlight python linenos %}
-  # Code here
-  {% endhighlight %}
+```markdown
+{% highlight python %}
+# Code here
 {% endhighlight %}
+```
 
+---
 
 # 2. LaTex
 ## 1) Bold
-{% highlight LaTeX linenos %}
+{% highlight LaTeX %}
 \bf{}: 사용 이후에도 적용이 지속된다
 \textbf{}: Text
 \mathbf{}: Vector
@@ -23,7 +24,7 @@ title: Cheetsheet
 ## 2) 복합 tag
 - Color, bold, underline을 동시에 사용할 때 순서를 맞춰주어야 한다.
 
-{% highlight LaTeX linenos %}
+{% highlight LaTeX %}
 \bf{\underline{\color{red}}}
 {% endhighlight %}
 
@@ -50,7 +51,7 @@ c_{r1} & \cdots & c_{rn}\\
 \end{aligned}
 $$
 
-{% highlight LaTeX linenos %}
+{% highlight LaTeX %}
 $$
 \begin{aligned}
 A =
@@ -85,7 +86,7 @@ $$
 \end{equation}
 $$
 
-{% highlight LaTeX linenos %}
+{% highlight LaTeX %}
 $$
 \begin{equation}
 \begin{aligned}
@@ -99,18 +100,19 @@ $$
 
 
 ## Etc
-{% highlight LaTeX linenos %}
+{% highlight LaTeX %}
 $ \stackrel{i.i.d.}{\sim} \\
 \overset{above}{main} $
 $\Vert W \Vert^2$
 {% endhighlight %}
 
-{% highlight LaTeX linenos %}
+{% highlight LaTeX %}
 \stackrel{i.i.d.}{\sim}
 \overset{above}{main}
 \Vert W \Vert^2<br>
 {% endhighlight %}
 
+---
 
 # 3. TeXt
 ## 1) Alert
@@ -120,7 +122,7 @@ $\Vert W \Vert^2$
 Description
 {:.success}
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 **Title** \
 Description
 {:.success}
@@ -131,15 +133,16 @@ Description
 
 `content`{:.success}
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 `content`{:.success}
 {% endhighlight %}
 
-    
+---
+
 # 4. Image
 <img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg">
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 <img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg">
 {% endhighlight %}
 
@@ -148,7 +151,7 @@ Description
   width="20%"
   height="20%">
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 <img
   src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg"
   width="20%"
@@ -157,24 +160,26 @@ Description
 
 ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg){:width="20" height="20"}{:.border}
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg){:width="20" height="20"}{:.border}
 {% endhighlight %}
 
 ![picture 1](images/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 ![picture 1](images/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
 {% endhighlight %}
 
+---
 
 # 5. YouTube
 {% include extensions/youtube.html id = 'xYyL47hCTKA' %}
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 {% include extensions/youtube.html id = 'xYyL47hCTKA' %}
 {% endhighlight %}
 
+---
 
 # 6. 요약글
 <details>
@@ -186,7 +191,7 @@ Description
   </div>
 </details>
 
-{% highlight markdown linenos %}
+{% highlight markdown %}
 <details>
   <summary>요약글</summary>
   <div markdown="1">
