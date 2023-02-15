@@ -76,3 +76,96 @@ header:
       tr      : &TR       Cheetsheet
       # @end locale config
     url: /cheetsheet.html
+
+
+docs-en:
+  - title:      Programming
+    children:
+      - title:  Python
+        url: /archive.html?tag=Python
+      - title:  Machine Learning
+        url: /archive.html?tag=Prog_ML
+      - title:  TensorFlow
+        url: /archive.html?tag=TensorFlow
+      - title:  PyTorch
+        url: /archive.html?tag=PyTorch
+      - title:  Hands-On ML
+        url: /archive.html?tag=Hands-On
+      - title:  Design Patterns
+        url: /archive.html?tag=DesignPatterns
+      - title:  Database
+        url: /archive.html?tag=Database
+      - title:  Visualization
+        url: /archive.html?tag=Visualization
+      - title:  Linux
+        url: /archive.html?tag=Linux
+      - title:  Docker
+        url: /archive.html?tag=Docker
+      - title:  Parallel Computing
+        url: /archive.html?tag=Parallel
+      - title:  R
+        url: /archive.html?tag=R
+      - title:  Finance
+        url: /archive.html?tag=Prog_Finance
+      - title:  Coding Test
+        url: /archive.html?tag=CodingTest
+      - title:  CS
+        url: /archive.html?tag=CS
+      - title:  Etc
+        url: /archive.html?tag=Prog_Etc
+
+  - title:      Machine Learning
+    children:
+      - title:  Theory
+        url: /archive.html?tag=Theory
+      - title:  Neural Network
+        url: /archive.html?tag=NN
+      - title:  Recommendation Systems
+        url: /archive.html?tag=Recommendation
+      - title:  Natural Language Processing
+        url: /archive.html?tag=NLP
+
+  - title:      Mathematics / Statistics
+    children:
+      - title:  Base
+        url: /archive.html?tag=Math
+
+  - title:      Study
+    children:
+      - title:  Fluent Python
+        url: /archive.html?tag=Study_FluentPython
+      - title:  Portfolio with Python
+        url: /archive.html?tag=Study_PortfolioTheory
+      - title:  Time Series Analysis
+        url: /archive.html?tag=Study_TimeSeriesAnalysis
+      - title:  Big Data Computing
+        url: /archive.html?tag=Study_BigDataComputing
+      - title:  Investments
+        url: /archive.html?tag=Study_Investments
+      - title:  Common Finance
+        url: /archive.html?tag=Study_CommonFinance
+
+  - title:      Projects
+    children:
+      - title:  Competition
+        url: /archive.html?tag=Competition
+      - title:  Etc
+        url: /archive.html?tag=Project_Etc
+
+  - title:      Papers
+    children:
+      - title:  Papers
+        url: /archive.html?tag=Papers
+        
+  - title:      Etc
+    children:
+      - title:  Music
+        url: /archive.html?tag=Music
+      - title:  Finance
+        url: /archive.html?tag=Finance
+      - title:  Git
+        url: /archive.html?tag=Git
+      - title:  Job
+        url: /archive.html?tag=Job
+      - title:  Etc
+        url: /archive.html?tag=Etc
