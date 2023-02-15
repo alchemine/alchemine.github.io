@@ -24,6 +24,8 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
+sidebar:
+  nav: docs-en
 ---
 
 ![picture 1](images/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  

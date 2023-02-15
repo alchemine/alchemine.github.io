@@ -214,6 +214,8 @@ defaults:
       show_subscribe: false
       pageview: true
       comment: true
+      sidebar:
+        nav: docs-en
 
 ## => Plugins
 ##############################
