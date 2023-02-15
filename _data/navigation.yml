@@ -87,8 +87,9 @@ docs-en:
         url: /archive.html?tag=DesignPatterns
       - title:  Database
         url: /archive.html?tag=Database
-      
-
+      - title:  Linux
+        url: /archive.html?tag=Linux
+     
       
       - title:  Machine Learning
         url: /archive.html?tag=Prog_ML
@@ -98,11 +99,10 @@ docs-en:
         url: /archive.html?tag=PyTorch
       - title:  Hands-On ML
         url: /archive.html?tag=Hands-On
-
       - title:  Visualization
         url: /archive.html?tag=Visualization
-      - title:  Linux
-        url: /archive.html?tag=Linux
+
+
       - title:  Docker
         url: /archive.html?tag=Docker
       - title:  Parallel Computing
