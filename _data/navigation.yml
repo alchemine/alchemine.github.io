@@ -93,6 +93,8 @@ docs-en:
         url: /archive.html?tag=Docker
       - title:  Parallel Computing
         url: /archive.html?tag=ParallelComputing
+      - title:  R
+        url: /archive.html?tag=R
      
       
       - title:  Machine Learning
@@ -107,8 +109,6 @@ docs-en:
         url: /archive.html?tag=Visualization
 
 
-      - title:  R
-        url: /archive.html?tag=R
       - title:  Finance
         url: /archive.html?tag=Prog_Finance
       - title:  Coding Test
