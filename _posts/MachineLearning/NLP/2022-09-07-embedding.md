@@ -1,8 +1,6 @@
 ---
 title: Text Embedding
 tags: NLP
-aside:
-  toc: true
 ---
 
 <!--more-->

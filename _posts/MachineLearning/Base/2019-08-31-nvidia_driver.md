@@ -1,9 +1,6 @@
 ---
-layout: article
 title: NVIDIA Graphic Driver, CUDA, Tensorflow-gpu 설치
 tags: MachineLearning_Base
-sidebar:
-  nav: docs-en
 ---
 
 # Remarks

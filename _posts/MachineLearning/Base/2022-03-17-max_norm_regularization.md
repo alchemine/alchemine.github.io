@@ -1,8 +1,6 @@
 ---
 title: Max-norm Regularization
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 # Remarks

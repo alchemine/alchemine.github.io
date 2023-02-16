@@ -1,8 +1,6 @@
 ---
 title: Neural Network Hyperparameter Tuning Guideline
 tags: MachineLearning_Base
-aside:
-  toc: True
 ---
 
 <!--more-->

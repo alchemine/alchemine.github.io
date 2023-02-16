@@ -1,8 +1,6 @@
 ---
 title: 파이썬 디자인 패턴 - 8. 템플릿 메소드 패턴
 tags: DesignPatterns
-aside:
-  toc: true
 ---
 
 관련 코드는 [8장. 템플릿 메소드 패턴 - 알고리즘의 캡슐화](https://github.com/alchemine/design_pattern/tree/main/8%EC%9E%A5.%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EB%A9%94%EC%86%8C%EB%93%9C%20%ED%8C%A8%ED%84%B4%20-%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98%20%EC%BA%A1%EC%8A%90%ED%99%94)를 참조

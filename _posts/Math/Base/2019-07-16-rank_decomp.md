@@ -1,9 +1,6 @@
 ---
-layout: article
 title: Rank factorization
 tags: Math_Base
-sidebar:
-  nav: docs-en
 ---
 
 이번에 살펴볼 내용은 rank와 관련하여 행렬을 분해하는 방법인 **rank factorization** 입니다. <br>

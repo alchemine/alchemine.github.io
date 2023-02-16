@@ -1,8 +1,6 @@
 ---
 title: Deep Learning process
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 <!--more-->

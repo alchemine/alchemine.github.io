@@ -1,8 +1,6 @@
 ---
 title: Contents-based Recommendation Systems
 tags: RecommendationSystem
-aside:
-  toc: true
 ---
 
 <!--more-->

@@ -1,8 +1,6 @@
 ---
 title: Information theory
 tags: Math_Base
-aside:
-  toc: true
 ---
 
 이 글은 <br>

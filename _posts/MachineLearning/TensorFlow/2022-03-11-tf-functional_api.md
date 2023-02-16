@@ -1,8 +1,6 @@
 ---
 title: Functional API
 tags: TensorFlow
-aside:
-  toc: True
 ---
 
 <!--more-->

@@ -1,8 +1,6 @@
 ---
 title: Machine learning project structure
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 [CS230 tensorflow project](https://github.com/cs230-stanford/cs230-code-examples)를 참고하면서 제 나름대로 Machine learning project의 토대가 되는 구조를 만들어보았습니다. <br>

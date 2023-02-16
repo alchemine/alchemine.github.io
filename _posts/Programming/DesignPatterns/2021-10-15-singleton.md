@@ -1,8 +1,6 @@
 ---
 title: 파이썬 디자인 패턴 - 2. 싱글톤 디자인 패턴
 tags: DesignPatterns
-aside:
-  toc: true
 ---
 
 관련 코드는 [2장. 싱글톤 디자인 패턴](https://github.com/alchemine/design_pattern/blob/main/2%EC%9E%A5.%20%EC%8B%B1%EA%B8%80%ED%86%A4%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4)를 참조

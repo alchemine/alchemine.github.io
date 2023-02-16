@@ -1,8 +1,6 @@
 ---
 title: Bayesian hypothesis testing
 tags: Math_Base
-aside:
-  toc: true
 ---
 
 <!--more-->

@@ -1,8 +1,6 @@
 ---
 title: Prior selection in Bayesian linear regression
 tags: Math_Base
-aside:
-  toc: true
 ---
 
 <!--more-->

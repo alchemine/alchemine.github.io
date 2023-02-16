@@ -1,9 +1,6 @@
 ---
-layout: article
 title: Warm start
 tags: MachineLearning_Base
-sidebar:
-  nav: docs-en
 ---
 
 # Remarks

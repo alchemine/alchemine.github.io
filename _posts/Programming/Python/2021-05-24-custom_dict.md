@@ -1,8 +1,6 @@
 ---
 title: Custom dictionary
 tags: Python
-aside:
-  toc: True
 ---
 
 <!--more-->

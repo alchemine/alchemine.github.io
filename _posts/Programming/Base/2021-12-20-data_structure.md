@@ -1,8 +1,6 @@
 ---
 title: Data structure
 tags: Programming_Base
-aside:
-  toc: true
 ---
 
 # Remarks

@@ -1,8 +1,6 @@
 ---
 title: Using pretrained classification model (TensorFlow)
 tags: TensorFlow
-aside:
-  toc: true
 ---
 
 <!--more-->

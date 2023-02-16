@@ -1,8 +1,6 @@
 ---
 title: Linear Regression
 tags: PyTorch
-aside:
-  toc: true
 ---
 
 <!--more-->

@@ -1,11 +1,6 @@
 ---
-layout: article
 title: Error analysis
 tags: MachineLearning_Base
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
 ---
 
 문제에 가장 적절한 모델을 찾은 후 해당 모델의 성능을 향상시키기 위한 방법을 찾기 위해 생겨난 에러의 종류를 분석할 수 있습니다. 이 과정을 **에러 분석 (Error analysis)** 라고 합니다.

@@ -1,8 +1,6 @@
 ---
 title: Random State in TensorFlow
 tags: TensorFlow
-aside:
-  toc: true
 ---
 
 <!--more-->

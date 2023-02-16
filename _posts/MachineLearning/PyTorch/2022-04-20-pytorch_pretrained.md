@@ -1,8 +1,6 @@
 ---
 title: Using pretrained classification model (PyTorch)
 tags: PyTorch
-aside:
-  toc: true
 ---
 
 <!--more-->

@@ -1,8 +1,6 @@
 ---
 title: F.cross_entropy()
 tags: PyTorch
-aside:
-  toc: true
 ---
 
 <!--more-->

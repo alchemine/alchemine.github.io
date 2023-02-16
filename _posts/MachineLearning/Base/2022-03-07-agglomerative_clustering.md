@@ -1,8 +1,6 @@
 ---
 title: Agglomerative clustering
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 <!--more-->

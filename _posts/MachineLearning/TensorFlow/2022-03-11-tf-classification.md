@@ -1,8 +1,6 @@
 ---
 title: Simple classification
 tags: TensorFlow
-aside:
-  toc: True
 ---
 
 <!--more-->

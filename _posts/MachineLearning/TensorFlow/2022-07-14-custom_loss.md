@@ -1,8 +1,6 @@
 ---
 title: Custom Loss
 tags: TensorFlow
-aside:
-  toc: true
 ---
 
 <!--more-->

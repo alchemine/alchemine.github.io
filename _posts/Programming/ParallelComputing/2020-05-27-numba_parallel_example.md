@@ -1,8 +1,6 @@
 ---
 title: Numba parallel example
 tags: ParallelComputing
-aside:
-  toc: True
 ---
 
 <!--more-->

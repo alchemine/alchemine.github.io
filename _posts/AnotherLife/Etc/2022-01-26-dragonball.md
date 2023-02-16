@@ -1,8 +1,6 @@
 ---
 title: 컴퓨터 조립
 tags: Etc
-aside:
-  toc: true
 ---
 
 <!--more-->

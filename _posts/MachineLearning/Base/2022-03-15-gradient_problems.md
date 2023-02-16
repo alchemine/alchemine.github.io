@@ -1,8 +1,6 @@
 ---
 title: Vanishing & Exploding Gradient
 tags: MachineLearning_Base
-aside:
-  toc: True
 ---
 
 # Remarks

@@ -1,8 +1,6 @@
 ---
 title: Subclass API
 tags: TensorFlow
-aside:
-  toc: True
 ---
 
 <!--more-->

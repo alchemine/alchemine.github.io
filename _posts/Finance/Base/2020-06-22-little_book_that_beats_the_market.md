@@ -1,8 +1,6 @@
 ---
 title: 마법공식(Joel Greenblatt)
 tags: Finance_Base
-aside:
-  toc: true
 ---
 
 # Remarks

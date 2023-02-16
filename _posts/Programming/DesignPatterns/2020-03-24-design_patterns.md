@@ -1,8 +1,6 @@
 ---
 title: Design Principles & Design Pattern
 tags: DesignPatterns
-aside:
-  toc: true
 ---
 
 # Remarks

@@ -1,9 +1,6 @@
 ---
-layout: article
 title: Access remote jupyter-notebook
 tags: MachineLearning_Base
-sidebar:
-  nav: docs-en
 ---
 
 # Remarks

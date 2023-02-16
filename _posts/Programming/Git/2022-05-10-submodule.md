@@ -1,8 +1,6 @@
 ---
 title: Git Submodule
 tags: Git
-aside:
-  toc: true
 ---
 
 # Remarks

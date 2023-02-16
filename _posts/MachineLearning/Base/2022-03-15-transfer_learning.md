@@ -1,8 +1,6 @@
 ---
 title: Transfer Learning
 tags: MachineLearning_Base
-aside:
-  toc: True
 ---
 
 # Remarks

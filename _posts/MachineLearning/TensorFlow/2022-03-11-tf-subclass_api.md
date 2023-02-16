@@ -1,8 +1,6 @@
 ---
 title: Multiple inputs, outputs
 tags: TensorFlow
-aside:
-  toc: True
 ---
 
 <!--more-->

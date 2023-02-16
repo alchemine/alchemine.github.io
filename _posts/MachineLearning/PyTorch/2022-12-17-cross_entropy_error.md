@@ -1,8 +1,6 @@
 ---
 title: Logistic Regression Example
 tags: PyTorch
-aside:
-  toc: true
 ---
 
 <!--more-->

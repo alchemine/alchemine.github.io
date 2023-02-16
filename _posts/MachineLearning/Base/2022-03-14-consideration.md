@@ -1,8 +1,6 @@
 ---
 title: Consideration on Neural Network
 tags: MachineLearning_Base
-aside:
-  toc: True
 ---
 
 [A Neural Network Playground](playground.tensorflow.org)를 굴려본 결과에 대한 글입니다.

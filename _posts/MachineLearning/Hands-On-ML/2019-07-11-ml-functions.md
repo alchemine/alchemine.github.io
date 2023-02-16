@@ -1,11 +1,6 @@
 ---
-layout: article
 title: 2. End-to-End Machine Learning Project
 tags: Hands-On-ML
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
 ---
 
 # Remarks

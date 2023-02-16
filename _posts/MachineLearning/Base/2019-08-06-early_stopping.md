@@ -1,9 +1,6 @@
 ---
-layout: article
 title: Early stopping
 tags: MachineLearning_Base
-sidebar:
-  nav: docs-en
 ---
 
 **Early stopping**은 iterative algorithm에서 사용할 수 있는 regularization 방법으로 validation error가 최솟값에 도달하였다고 판단되면 바로 학습을 중지하는 방법입니다.

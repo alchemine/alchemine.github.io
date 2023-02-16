@@ -1,8 +1,6 @@
 ---
 title: Clustering + Label propagation
 tags: MachineLearning_Base
-aside:
-  toc: True
 ---
 
 <!--more-->

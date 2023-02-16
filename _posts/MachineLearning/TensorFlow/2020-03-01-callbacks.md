@@ -1,8 +1,6 @@
 ---
 title: Callbacks
 tags: TensorFlow
-aside:
-  toc: true
 ---
 
 <!--more-->

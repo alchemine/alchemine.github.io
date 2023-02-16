@@ -1,9 +1,6 @@
 ---
-layout: article
 title: Graphical Model
 tags: Math_Base
-sidebar:
-  nav: docs-en
 ---
 
 ex) Discrete Markov-Chain

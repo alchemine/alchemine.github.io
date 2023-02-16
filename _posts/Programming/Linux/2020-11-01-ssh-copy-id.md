@@ -1,9 +1,6 @@
 ---
-layout: article
 title: Ubuntu ssh setting
 tags: Linux
-sidebar:
-  nav: docs-en
 ---
 
 # Remarks

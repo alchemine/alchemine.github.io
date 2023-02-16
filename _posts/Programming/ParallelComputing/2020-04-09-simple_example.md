@@ -1,8 +1,6 @@
 ---
 title: Simple example with Numba
 tags: ParallelComputing
-aside:
-  toc: true
 ---
 
 

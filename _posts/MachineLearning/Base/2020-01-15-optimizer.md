@@ -1,8 +1,6 @@
 ---
 title: Optimization methods based on gradient
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 <!--more-->

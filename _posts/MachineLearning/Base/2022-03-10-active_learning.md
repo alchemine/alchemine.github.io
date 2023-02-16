@@ -1,8 +1,6 @@
 ---
 title: Active learning
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 **Active learning(능동 학습)** \

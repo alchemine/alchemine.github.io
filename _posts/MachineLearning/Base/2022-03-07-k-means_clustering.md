@@ -1,8 +1,6 @@
 ---
 title: k-means clustering(Lloyd-Forgy algorithm)
 tags: MachineLearning_Base
-aside:
-  toc: true
 ---
 
 <!--more-->

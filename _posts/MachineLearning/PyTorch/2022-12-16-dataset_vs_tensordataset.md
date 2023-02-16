@@ -1,8 +1,6 @@
 ---
 title: torch.utils.data.Dataset vs TensorDataset
 tags: PyTorch
-aside:
-  toc: true
 ---
 
 <!--more-->

@@ -1,8 +1,6 @@
 ---
 title: Simple regression
 tags: TensorFlow
-aside:
-  toc: True
 ---
 
 <!--more-->

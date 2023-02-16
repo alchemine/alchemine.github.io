@@ -1,8 +1,6 @@
 ---
 title: Unsupervised Pretraining
 tags: MachineLearning_Base
-aside:
-  toc: True
 ---
 
 # Remarks

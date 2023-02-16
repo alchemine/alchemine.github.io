@@ -1,9 +1,6 @@
 ---
-layout: article
 title: How to change favicon
 tags: Git
-sidebar:
-  nav: docs-en
 ---
 
 [https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)

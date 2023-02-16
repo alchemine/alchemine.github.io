@@ -1,11 +1,6 @@
 ---
-layout: article
 title: Regular matrix and singular matrix
 tags: Math_Base
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
 ---
 
 **Regular matrix / Singular matrix** <br>

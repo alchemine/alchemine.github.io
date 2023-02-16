@@ -1,9 +1,6 @@
 ---
-layout: article
 title: First post
 tags: Etc
-sidebar:
-  nav: docs-en
 ---
 
 This is the first post in my notes blog.  

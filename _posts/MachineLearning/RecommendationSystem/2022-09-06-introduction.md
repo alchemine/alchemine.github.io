@@ -1,8 +1,6 @@
 ---
 title: Introduction to Recommendation Systems
 tags: RecommendationSystem
-aside:
-  toc: true
 ---
 
 <!--more-->

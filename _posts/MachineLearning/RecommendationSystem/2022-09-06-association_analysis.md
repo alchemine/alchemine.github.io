@@ -1,8 +1,6 @@
 ---
 title: Association Analysis
 tags: RecommendationSystem
-aside:
-  toc: true
 ---
 
 <!--more-->

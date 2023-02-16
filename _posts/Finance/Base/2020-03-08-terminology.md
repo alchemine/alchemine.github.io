@@ -1,8 +1,6 @@
 ---
 title: Finance basic terminology
 tags: Finance_Base
-aside:
-  toc: true
   
 ---
 

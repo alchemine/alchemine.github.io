@@ -1,8 +1,6 @@
 ---
 title: Cross validation for TensorFlow model
 tags: TensorFlow
-aside:
-  toc: True
 ---
 
 <!--more-->
