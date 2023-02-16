@@ -28,7 +28,7 @@ plt.matshow(conf_mx, cmap=plt.cm.gray)
 plt.show()
 {% endhighlight %}
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/all_conf_mat.png){:.border} <br>
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/all_conf_mat.png){:.border} <br>
 
 
 #### 2. 대응되는 클래스의 이미지 개수로 나누어 에러 비율을 비교합니다.
@@ -44,7 +44,7 @@ plt.matshow(norm_conf_mx, cmap=plt.cm.gray)
 plt.show()
 {% endhighlight %}
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/diag_conf_mat.png){:.border} <br>
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/diag_conf_mat.png){:.border} <br>
 
 
 #### 3. 에러 항들을 자세히 분석합니다.
@@ -93,9 +93,9 @@ plot_digit_confusion_mx(3, 5)
 plot_digit_confusion_mx(7, 9)
 {% endhighlight %}
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/35.png){:.border} <br>
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/35.png){:.border} <br>
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/79.png){:.border} <br>
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/79.png){:.border} <br>
 
 
 #### 5. 결론

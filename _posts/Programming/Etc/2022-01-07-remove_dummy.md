@@ -22,7 +22,7 @@ tags: Programming_Etc
 ### 1. Pycharm에서 사용 중인 파일인지 확인
 `Help → Show Log in Explorer`
 
-![](/images/2022-01-07-remove_dummy/001.jpg)
+![](/deprecated/images/2022-01-07-remove_dummy/001.jpg)
 
 이전 버전이 log 파일에서 사용되고 있지 않는 것을 확인
 

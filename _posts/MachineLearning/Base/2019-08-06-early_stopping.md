@@ -18,7 +18,7 @@ sidebar:
 
 Epoch에 따른 error 그래프를 그려보면 일반적으로 다음과 같은 형태를 보이게 됩니다. <br>
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/es_1.jpg){:.border} <br>
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/es_1.jpg){:.border} <br>
 
 {% highlight python linenos %}
 

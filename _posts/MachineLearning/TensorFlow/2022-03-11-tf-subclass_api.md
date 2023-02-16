@@ -95,7 +95,7 @@ pd.DataFrame(history.history).plot(figsize=(20, 5), grid=True, xlabel='epoch', y
 
 
 
-![png](/images/2022-03-11-tf-subclass_api/output_7_1.png)
+![png](/deprecated/images/2022-03-11-tf-subclass_api/output_7_1.png)
 
 
 

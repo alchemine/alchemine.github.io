@@ -138,7 +138,7 @@ display(df, itemsets, rules)
 6. Support가 작은 item에 해당하는 leaf node부터 root node까지 만나는 item들을 계산하여 각 item을 조건으로 하는 조건부 패턴(conditional pattern bases)을 생성 (그림 3)
 7. 생성된 조건부 패턴을 기반으로 패턴 생성
 
-|![FP-Growth 1](/assets/FP-Growth%201.jpg)|![FP-Growth 2](/assets/FP-Growth%202.jpg)| ![FP-Growth 3](/assets/FP-Growth%203.jpg) |
+|![FP-Growth 1](/deprecated/assets/FP-Growth%201.jpg)|![FP-Growth 2](/deprecated/assets/FP-Growth%202.jpg)| ![FP-Growth 3](/deprecated/assets/FP-Growth%203.jpg) |
 |--|--|--|
 |그림 1. Support로 정렬된 transaction | 그림 2. Tree로 변환된 transaction| 그림 3. 각 item을 조건으로 하여 계산된 조건부 패턴 |
 

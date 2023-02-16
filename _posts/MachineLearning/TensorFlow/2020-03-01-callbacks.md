@@ -261,7 +261,7 @@ pd.DataFrame(history.history, columns=['r_square', 'val_r_square']).plot(linesty
 ```
 
 
-![png](/images/2022-03-11-callbacks/output_15_0.png)
+![png](/deprecated/images/2022-03-11-callbacks/output_15_0.png)
 
 
 

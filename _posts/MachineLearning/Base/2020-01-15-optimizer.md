@@ -58,8 +58,8 @@ while $N$ // $B$ iterations <br>
 
 - SGD의 문제점들(poor conditioning, local minima/saddle point, gradient noise)을 해결하는데 도움이 된다.(velocity를 구할 때, 평균을 구하는 것처럼 noise를 경감시키는 효과가 있다)
 
-![jpg](/images/2020-01-15-optimizer/20200115_001.jpg)
-![jpg](/images/2020-01-15-optimizer/20200115_002.jpg)
+![jpg](/deprecated/images/2020-01-15-optimizer/20200115_001.jpg)
+![jpg](/deprecated/images/2020-01-15-optimizer/20200115_002.jpg)
 
 - 일반적으로 friction rate $\rho$를 0.9 혹은 0.99로 사용하고, velocity $v$의 초깃값으로 0를 사용한다.
 
@@ -73,7 +73,7 @@ while $N$ // $B$ iterations <br>
 ## 4. SGD with Nesterov Momentum
 현재 위치에서 gradient를 계산하는 momentum update와는 달리, velocity만으로 update한 지점에서 계산한 gradient를 사용하여 gradient descent를 수행한다.
 
-![jpg](/images/2020-01-15-optimizer/2020011552.jpg)
+![jpg](/deprecated/images/2020-01-15-optimizer/2020011552.jpg)
 
 - **Algorithm (1 epoch)** <br>
 while $N$ // $B$ iterations <br>

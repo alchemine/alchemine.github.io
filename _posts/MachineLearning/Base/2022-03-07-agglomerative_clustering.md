@@ -7,7 +7,7 @@ aside:
 
 <!--more-->
 
-![](/images/2022-03-07-clustering/1.png)[1]
+![](/deprecated/images/2022-03-07-clustering/1.png)[1]
 
 # 1. Algorithm
 인접한 cluster 쌍을 연결하여 cluster를 생성

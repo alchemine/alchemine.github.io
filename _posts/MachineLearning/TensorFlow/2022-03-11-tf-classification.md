@@ -112,7 +112,7 @@ pd.DataFrame(history.history).plot(figsize=(20, 5), xlabel='epoch', ylabel='scor
 
 
 
-![png](/images/2022-03-11-tf-classification/output_4_1.png)
+![png](/deprecated/images/2022-03-11-tf-classification/output_4_1.png)
 
 
 

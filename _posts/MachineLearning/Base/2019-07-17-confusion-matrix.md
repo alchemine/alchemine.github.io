@@ -10,7 +10,7 @@ aside:
 
 분류기의 성능을 평가하기 위해 간단히 accuracy (정확도)만을 사용할 수도 있지만 더 정확하게 평가하기 위해서 **confusion matrix (오차 행렬)** 를 조사하는 것이 필수적입니다. <br><br>
 
-<img align='left' src="https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/confusion_matrix.png">[^1]
+<img align='left' src="https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/confusion_matrix.png">[^1]
 #### 1. Accuracy = $\frac{\text{TP + TN}}{\text{All}}$
 #### 2. Precision = $\frac{\text{TP}}{\text{TP + FP}}$
 #### 3. Recall = TPR = $\frac{\text{TP}}{\text{TP + FN}}$
@@ -40,7 +40,7 @@ $$ \textbf{Recall} = P(\color{green}{\textbf{predictive true }} | \color{blue}{\
 # 4. Precision / recall tradeoff
 Precision은 다른 모든 양성 sample들(FN)을 무시하기 때문에 이들을 반영하는 recall과 반드시 함께 평가되어야 합니다. 안타깝게도 두 지표를 동시에 올릴 수는 없기 때문에 주어진 문제에 따라 가장 적절한 임곗값(threshold, decision function)을 정해야 합니다. 이를 **precision / recall tradeoff** 라고 부릅니다.
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/threshold.png){:.border}
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/threshold.png){:.border}
 <br>
 
 # 5. F$\bf{_1}$ score
@@ -75,7 +75,7 @@ Class마다 데이터 수에 차이가 나는 경우 macro average를 사용하�
 Precision-recall graph를 말합니다. <br>
 일반적으로 precision이 급격하게 줄어드는 하강점 직전을 threshold로 정하는 것이 좋습니다. 어떤 precision이 주어지더라도 만족시키는 분류기를 만들 순 있지만, recall이 너무 낮다면 사용할 수 없기 때문에 생성된 분류기의 성능을 고려해야 합니다.
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/prcurve.png){:.border}
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/prcurve.png){:.border}
 <br>
 
 # 8. ROC curve (Receiver Operating Characteristic curve)
@@ -83,7 +83,7 @@ Precision-recall graph를 말합니다. <br>
 **FPR (False Positive Ratio, Type I error)** 은 실제로 false$\color{red}{\textbf{(actual false)}}$인 sample들 중 true라고 예측$\color{green}{\textbf{(predictive true)}}$한 비율을 의미하며, **TPR (True Positive Ratio, 1 - Type II error)** 은 recall과 동일한 값을 나타냅니다. 여기서도 TPR(recall)이 높을수록 FPR이 증가하는 tradeoff가 발생합니다. <br>
 점선은 완전한 random 분류기를 의미하며 성능이 좋은 분류기는 이 점선으로부터 최대한 많이 떨어져 있는 (0, 1)에 근접한 모양이 됩니다. Curve 아래의 면적인 **AUC(Area Under the Curve)** 를 통해 분류기들을 비교할 수 있는데 완벽한 분류기는 AUC=1 이고, random 분류기의 AUC=0.5 가 됩니다.
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/roccurve.png){:.border}
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/roccurve.png){:.border}
 
 일반적으로 true class가 적거나 FN보다 FP가 더 중요할 때 PR curve를 사용하고, 그 밖의 경우엔 ROC curve를 사용합니다.
 
@@ -133,7 +133,7 @@ precisions, recalls, thresholds = precision_recall_curve(y_train, y_scores)
 plot_precision_recall_vs_threshold(precisions, recalls, thresholds)
 {% endhighlight %}
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/threshold.png){:.border} <br>
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/threshold.png){:.border} <br>
 
 
 ## 4. PR curve 2
@@ -149,7 +149,7 @@ precisions, recalls, thresholds = precision_recall_curve(y_train, y_scores)
 plot_precision_recall(precisions, recalls)
 {% endhighlight %}
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/prcurve.png){:.border}
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/prcurve.png){:.border}
 <br>
 
 ## 5. ROC curve
@@ -166,7 +166,7 @@ plot_roc_curve(fpr, tpr)
 print('AUC:', roc_auc_score(y_train, y_scores))
 {% endhighlight %}
 
-![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/_posts/assets/roccurve.png){:.border}
+![Image](https://raw.githubusercontent.com/alchemine/alchemine.github.io/master/deprecated/_posts/assets/roccurve.png){:.border}
 
 ---
 

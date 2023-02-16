@@ -13,7 +13,7 @@ aside:
 (The system learns to recommend items that are similar to the ones that the user liked in the past.)
 {:.success}
 
-![contents-based RS 1](/assets/contents-based%20RS%201.jpg)
+![contents-based RS 1](/deprecated/assets/contents-based%20RS%201.jpg)
 
 
 ## 1) Algorithm

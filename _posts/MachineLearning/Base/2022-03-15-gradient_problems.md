@@ -23,7 +23,7 @@ Neural network의 하위층으로 갈수록 역전파되는 gradient의 크기�
 기존(2010년 이전)에 사용했던 `sigmoid` activation function과 표준정규분포($N(0, 1)$)로 weight를 초기화하는 방법은 각 layer마다 **gradient의 크기**를 불안정하게 만들었다. \
 이는 각 layer의 **학습 속도**를 다르게 하기 때문에 DNN의 학습을 어렵게 만들었다.
 
-![1](/assets/2022-03-15-1.png)
+![1](/deprecated/assets/2022-03-15-1.png)
 
 1. **Exploding Variance** \
 각 layer에서, **output의 분산 > input의 분산**
@@ -105,7 +105,7 @@ from tensorflow import keras
 
 
 ### 2.2.1 LeakyReLU
-![4](/assets/2022-03-15-4.png)
+![4](/deprecated/assets/2022-03-15-4.png)
 $$
 \text{leaky relu}(z) =
   \begin{cases}
@@ -125,7 +125,7 @@ keras.layers.Dense(activation=keras.layers.LeakyReLU(alpha=0.3), kernel_initiali
 
 
 ### 2.2.2 ELU
-![3](/assets/2022-03-15-3.png)
+![3](/deprecated/assets/2022-03-15-3.png)
 $$
 \text{elu}(z) =
   \begin{cases}
@@ -145,7 +145,7 @@ keras.layers.Dense(activation=keras.layers.ELU(alpha=1), kernel_initializer='he_
 
 
 ### 2.2.3 SELU(Scaled ELU)
-![2](/assets/2022-03-15-2.png)
+![2](/deprecated/assets/2022-03-15-2.png)
 $$
 \text{selu}(z) = \lambda
   \begin{cases}

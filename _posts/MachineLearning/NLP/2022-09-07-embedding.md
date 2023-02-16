@@ -61,7 +61,7 @@ plt.matshow(emb, cmap='gray');
 2	0	1	1	0	2	0	0	0	0
 3	1	0	0	0	0	0	0	1	1
 ```
-![tf-idf 1](/assets/tf-idf%201.png)
+![tf-idf 1](/deprecated/assets/tf-idf%201.png)
 
 
 {% highlight python linenos %}
@@ -93,7 +93,7 @@ plt.matshow(emb, cmap='gray');
 2	0.00	0.47	0.47	0.00	0.74	0.00	0.00	0.00	0.00
 3	0.58	0.00	0.00	0.00	0.00	0.00	0.00	0.58	0.58
 ```
-![tf-idf 2](/assets/tf-idf%202.png)
+![tf-idf 2](/deprecated/assets/tf-idf%202.png)
 
 
 {% highlight python linenos %}
@@ -119,7 +119,7 @@ plt.matshow(emb, cmap='gray');
 2	0.00	0.47	0.47	0.00	0.74	0.00	0.00	0.00	0.00
 3	0.58	0.00	0.00	0.00	0.00	0.00	0.00	0.58	0.58
 ```
-![tf-idf 3](/assets/tf-idf%203.png)
+![tf-idf 3](/deprecated/assets/tf-idf%203.png)
 
 
 # 2. Word2Vec
@@ -132,14 +132,14 @@ CBOW와 Skip-Gram 2가지 알고리즘을 사용할 수 있으며, \
 ### - CBOW
 주변 단어들과 가운데 단어의 one-hot encoding을 각각 input과 output으로 하는 모델을 학습시키는 알고리즘
 
-|![CBOW 1](/assets/CBOW%201.jpg) | ![CBOW 2](/assets/CBOW%202.jpg) |
+|![CBOW 1](/deprecated/assets/CBOW%201.jpg) | ![CBOW 2](/deprecated/assets/CBOW%202.jpg) |
 |--|--|
 |그림 1. 주변 단어를 보고 가운데 단어를 예측하는 CBOW 모델 | 그림 2. Supervised learning을 통해 학습되는 **$W_{in}$ 을 embedding vector로 사용** |
 
 ### - Skip-Gram
 가운데 단어와 주변 단어들의 one-hot encoding을 각각 input과 output으로 하는 모델을 학습시키는 알고리즘
 
-|![Skip-Gram 2](/assets/Skip-Gram2.png) | ![Skip-Gram 1](/assets/Skip-Gram1.png) |
+|![Skip-Gram 2](/deprecated/assets/Skip-Gram2.png) | ![Skip-Gram 1](/deprecated/assets/Skip-Gram1.png) |
 |--|--|
 |그림 1. 가운데 단어를 보고 주변 단어들을 예측하는 Skip-Gram 모델 | 그림 2. Supervised learning을 통해 학습되는 **$W_{in}$ 을 embedding vector로 사용** |
 

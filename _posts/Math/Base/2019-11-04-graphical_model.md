@@ -8,7 +8,7 @@ sidebar:
 
 ex) Discrete Markov-Chain
 
-![png](/images/graphical_files/1.jpg)
+![png](/deprecated/images/graphical_files/1.jpg)
 
 <!--more-->
 

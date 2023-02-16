@@ -78,7 +78,7 @@ for idx_ax, ax in enumerate(axes.flat):
 
 
 
-![png](/images/2022-03-08-semisupervised_learning/output_9_0.png)
+![png](/deprecated/images/2022-03-08-semisupervised_learning/output_9_0.png)
 
 
 

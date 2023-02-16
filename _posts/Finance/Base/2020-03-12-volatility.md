@@ -57,7 +57,7 @@ plt.grid();  plt.legend();
 ```
 
 
-![png](/images/Prog_Finance/2020-03-12-volatility/output_4_0.png)
+![png](/deprecated/images/Prog_Finance/2020-03-12-volatility/output_4_0.png)
 
 
 
@@ -76,4 +76,4 @@ plt.grid();  plt.legend();
 ```
 
 
-![png](/images/Prog_Finance/2020-03-12-volatility/output_5_0.png)
+![png](/deprecated/images/Prog_Finance/2020-03-12-volatility/output_5_0.png)

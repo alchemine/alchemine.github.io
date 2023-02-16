@@ -31,7 +31,7 @@ failed to solve with frontend dockerfile.v0: failed to solve with frontend gatew
 1. `Settings` → `Docker Engine`
 2. `buildkit: true` → `buildkit: false`
 
-![2022-06-01-docker_build_error_in_wsl2_1](/assets/2022-06-01-docker_build_error_in_wsl2_1.jpg)
+![2022-06-01-docker_build_error_in_wsl2_1](/deprecated/assets/2022-06-01-docker_build_error_in_wsl2_1.jpg)
 
 ```
 root@DESKTOP-HOME:~/project/etc/docker/getting-started/app# docker build -t getting-started .

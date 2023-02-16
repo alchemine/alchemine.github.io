@@ -38,5 +38,5 @@ $\textit{update_scale} = \Vert -\eta \cdot \nabla_WL \Vert^2$ <br>
 $\frac{\textit{update_scale}}{\textit{param_scale}} \approx 0.001$ 이 되도록 $\eta$를 선택하는 것이 바람직하다.
 
 ## 5. Monitoring and visualize the loss curve
-![jpg](/images/2020-01-14-learning_process/1.jpg)
+![jpg](/deprecated/images/2020-01-14-learning_process/1.jpg)
 - 가장 학습이 잘 된 때는 overfitting 되기 직전이다.

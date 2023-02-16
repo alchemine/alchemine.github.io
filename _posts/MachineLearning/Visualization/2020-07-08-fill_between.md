@@ -23,5 +23,5 @@ plt.fill_between(x, y1, where=(y1 < 0), interpolate=True, alpha=0.3, color='r')
 plt.show()
 ```
 
-![](/images/2020-07-08-fille_between/1.png)
+![](/deprecated/images/2020-07-08-fille_between/1.png)
 
