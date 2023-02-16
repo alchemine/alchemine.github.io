@@ -12,7 +12,7 @@ aside:
 
 # 1. Nerual network is stacking(hierarchical) model
 ## 1.1 # hidden layers = 1
-![{510C8B5A-4B31-45F3-8C15-A893231A6F3F}](/assets/{510C8B5A-4B31-45F3-8C15-A893231A6F3F}.png)
+![510C8B5A-4B31-45F3-8C15-A893231A6F3F](/assets/510C8B5A-4B31-45F3-8C15-A893231A6F3F.png)
 
 학습된 1st hidden layer의 1st node의 출력값은 다음과 같다.
 $H_{1,1}(X_1, X_2) = \sigma (-1.5 X_1 + 0.62 X_2 - 3.2)$
@@ -34,8 +34,8 @@ $H_{2,1}(H_{1,1}, H_{1,2}, ..., H_{1,5}) = \sigma (0.45 H_{1,1} - 1.4 H_{1,2} - 
 
 
 ## 1.3 # hidden layers > 2
-![{A2FA6905-FF13-4D6D-94F4-93A645AC0CBA}](/assets/{A2FA6905-FF13-4D6D-94F4-93A645AC0CBA}.png)
-![{B803108E-C225-4B30-83CF-A4E197F7EB68}](/assets/{B803108E-C225-4B30-83CF-A4E197F7EB68}.png)
+![A2FA6905-FF13-4D6D-94F4-93A645AC0CBA](/assets/A2FA6905-FF13-4D6D-94F4-93A645AC0CBA.png)
+![B803108E-C225-4B30-83CF-A4E197F7EB68](/assets/B803108E-C225-4B30-83CF-A4E197F7EB68.png)
 
 1. 깊은 layer의 node일수록 복잡한 model을 학습한다.
 2. Dying node들이 종종 보이는데 이들은 학습의 효율성을 떨어뜨린다. \
@@ -43,8 +43,8 @@ $H_{2,1}(H_{1,1}, H_{1,2}, ..., H_{1,5}) = \sigma (0.45 H_{1,1} - 1.4 H_{1,2} - 
 
 
 # 2. Batch size
-![{2650B528-052A-42EF-9956-915E9FB1874F}](/assets/{2650B528-052A-42EF-9956-915E9FB1874F}.png)
-![{8B30BEFB-279D-441D-9B6B-1167D0056EB1}](/assets/{8B30BEFB-279D-441D-9B6B-1167D0056EB1}.png)
+![2650B528-052A-42EF-9956-915E9FB1874F](/assets/2650B528-052A-42EF-9956-915E9FB1874F.png)
+![8B30BEFB-279D-441D-9B6B-1167D0056EB1](/assets/8B30BEFB-279D-441D-9B6B-1167D0056EB1.png)
 
 작은 batch size로 학습할 시,
 1. 수렴이 굉장히 **빠르다**.
