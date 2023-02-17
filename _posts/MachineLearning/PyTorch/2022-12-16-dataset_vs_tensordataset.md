@@ -5,7 +5,7 @@ tags: PyTorch
 
 <!--more-->
 
-### 1. `torch.utils.data.TensorDataset`
+# 1. `torch.utils.data.TensorDataset`
 첫 번째 차원(batch size)이 동일한 tensor들을 wrapping하는 dataset
 
 {% highlight python linenos %}
@@ -20,7 +20,8 @@ y_train = torch.FloatTensor([[152], [185], [180], [196], [142]])
 ds = TensorDataset(X_train, y_train)
 {% endhighlight %}
 
-### 2. `torch.utils.data.Dataset`
+
+# 2. `torch.utils.data.Dataset`
 Custom dataset을 만드는데 사용되는 abstract class
 
 {% highlight python linenos %}
