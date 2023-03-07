@@ -134,13 +134,13 @@ docs-en:
   - title:      Study
     children:
       - title:  Fluent Python
-        url: /archive.html?tag=Study_FluentPython
+        url: /archive.html?tag=Study_Fluent-Python
       - title:  Portfolio with Python
-        url: /archive.html?tag=Study_PortfolioWithPython
+        url: /archive.html?tag=Study_Portfolio-With-Python
       - title:  Time Series Analysis
-        url: /archive.html?tag=Study_TimeSeriesAnalysis
+        url: /archive.html?tag=Study_Time-Series-Analysis
       - title:  Big Data Computing
-        url: /archive.html?tag=Study_BigDataComputing
+        url: /archive.html?tag=Study_Big-Data-Computing
       - title:  Investments
         url: /archive.html?tag=Study_Investments
 
