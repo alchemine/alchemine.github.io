@@ -1,5 +1,6 @@
 ---
 title: Cheetsheet
+layout: article
 sidebar:
   nav: docs-en
 ---
