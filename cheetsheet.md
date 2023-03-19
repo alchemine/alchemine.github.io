@@ -1,8 +1,9 @@
 ---
 title: Cheetsheet
-layout: article
 sidebar:
   nav: docs-en
+comment:
+  true
 ---
 
 # 1. Code block(liquid tag)
