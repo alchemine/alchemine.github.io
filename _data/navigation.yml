@@ -135,6 +135,8 @@ docs-en:
     children:
       - title:  Fluent Python
         url: /archive.html?tag=Study_Fluent-Python
+      - title:  AWS Data Engineering
+        url: /archive.html?tag=Study_AWS-Data-Engineering
       - title:  Portfolio with Python
         url: /archive.html?tag=Study_Portfolio-With-Python
       - title:  Time Series Analysis
