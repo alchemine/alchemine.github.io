@@ -89,6 +89,8 @@ docs-en:
         url: /archive.html?tag=Database
       - title:  Linux
         url: /archive.html?tag=Linux
+      - title:  Mac
+        url: /archive.html?tag=Mac
       - title:  Docker
         url: /archive.html?tag=Docker
       - title:  Parallel Computing
