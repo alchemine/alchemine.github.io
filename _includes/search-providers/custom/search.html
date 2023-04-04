@@ -4,12 +4,19 @@
    <div class="col-12">
      <div id="search-bar">
        <i class="fa fa-search" aria-hidden="true"></i>
-       <input id="search-input" type="text" placeholder="검색어를 입력하세요." />
+       <input id="search-input" type="text" placeholder="검색어를 입력하세요." autofocus>
      </div>
      <ul id="results-container"></ul>
    </div>
   </div>
 </div>
+
+<!-- CSS for changing the input text color -->
+<style>
+#search-input {
+  color: black;
+}
+</style>
 
 <!-- Script pointing to jekyll-search.js -->
 <script src="/assets/js/simple-jekyll-search.js" type="text/javascript"></script>
