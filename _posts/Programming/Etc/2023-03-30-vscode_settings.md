@@ -8,8 +8,7 @@ tags: Programming_Etc
 가슴아프게도 macOS에서 remote server에 지속적으로 deployment를 하면서 사용하면 PyCharm이 맛탱이가 가버리는 문제가 발생한다. \
 몇 년 전부터 관련된 문제에 대하여 사람들이 문제 제기를 했었는데 JetBrain측에서는 정확히 증상을 알려달라는 말만 되풀이하고 있는 실정인지라 상당히 실망스러운 상황이 지속되고 있는 중..
 
-결국 vscode로 갈아타게 되었는데 가장 불편한 점이 python file을 실행시킬 때 `-m` option을 기본적으로 제공하지 않는다는 것이었다. 대체 왜? 어떻게 이게 없을 수가 있지?
-
+결국 vscode로 갈아타게 되었는데 가장 불편한 점이 python file을 실행시킬 때 `-m` option을 기본적으로 제공하지 않는다는 것이었다. 대체 왜? 어떻게 이게 없을 수가 있지? \
 다행히 이와 관련된 extension이 있으니 설치하고 `build task` 를 이용하여 어거지로나마 python module을 실행시킬 수 있다.
 
 
