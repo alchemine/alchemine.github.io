@@ -122,6 +122,8 @@ docs-en:
         url: /archive.html?tag=NLP
       - title:  Recommendation System
         url: /archive.html?tag=RecommendationSystem
+      - title:  Paper
+        url: /archive.html?tag=Paper
 
   - title:      Finance
     children:
@@ -152,11 +154,6 @@ docs-en:
     children:
       - title:  Competition
         url: /archive.html?tag=Competition
-
-  - title:      Papers
-    children:
-      - title:  Base
-        url: /archive.html?tag=Papers_Base
         
   - title:      Another Life
     children:
