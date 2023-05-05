@@ -1,5 +1,5 @@
 ---
-title: setuptools
+title: Command in setuptools
 tags: Python
 ---
 
@@ -8,14 +8,11 @@ tags: Python
 python 배포를 지원해주는 library가 있는데 바로 `setuptools`입니다.  
 `setuptools`를 통해 배포자의 정보와 project의 description, 사용법 등을 손쉽게 제공할 수 있습니다.  
 
-아래의 코드는 [Base structure for ML project](https://alchemine.github.io/2020/09/30/base-structure.html#gsc.tab=0)의 `setup.py` 입니다.
-
 
 {% highlight python linenos %}
 # setup.py
 
-from setuptools import find_packages, setup
-from setuptools import Command
+from setuptools import find_packages, setup, Command
 from subprocess import run
 
 
@@ -48,12 +45,12 @@ class Reset(MainCommand, Command):
 ### Setup summary
 setup(
     name="Base project",
-    author="Yoon Dongjin",
+    author="Dongjin Yoon",
     author_email="djyoon0223@gmail.com",
     description="Short description of the project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/alchemine/base-strcture-for-ML-project",
+    url="...",
     packages=find_packages(),  # `requirements.txt` is preferred
     classifiers=[
         "Programming Language :: Python :: 3",

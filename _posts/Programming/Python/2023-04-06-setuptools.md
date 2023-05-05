@@ -134,6 +134,8 @@ long_description의 콘텐츠 형식
 - `license`\
 패키지에 적용되는 라이선스
 
+명령어를 추가하여 사용하는 방법에 관하여는 [여기를](https://alchemine.github.io/2020/12/09/setuptools_cmd.html) 참고.
+
 
 # 5. tests
 단위 테스트 스크립트들을 `tests` 디렉터리 안에 저장한다. \
