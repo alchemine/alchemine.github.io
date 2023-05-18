@@ -3,6 +3,8 @@ title: かたちなきもの - ヰ世界情緒
 tags: Music
 ---
 
+<!--more-->
+
 {%- include extensions/youtube.html id='W4Gt1Er5q4Y' -%}
 
 **「かたちなきもの」**
