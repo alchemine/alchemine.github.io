@@ -55,6 +55,21 @@ WHERE address RLIKE '^강원도'  # startswith
 WHERE address RLIKE '강원도$'  # endswith
 ```
 
+### 1.1.2 Substring
+#### 1.1.2.1 `SUBSTR`
+Substring 추출
+
+```sql
+SELECT SUBSTR(code, 1, 3)  # SUBSTR(col, start, length)
+SELECT SUBSTR(code, -2)    # SUBSTR(col, length from back)
+```
+
+#### 1.1.2.2 `LEFT`, `RIGHT`
+```sql
+SELECT LEFT(code, 2)       # SUBSTR(col, 1, 2)
+SELECT RIGHT(code, 2)      # SUBSTR(col, -2)
+```
+
 ## 1.2 Number
 ### 1.2.1 `BETWEEN`
 ```sql
