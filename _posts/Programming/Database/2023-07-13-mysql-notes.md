@@ -84,6 +84,11 @@ WHERE age BETWEEN 20 and 29
 WHERE YEAR(datetime) = 2022 AND MONTH(datetime) = 1
 ```
 
+### 1.3.2 `DATE_FORMAT`
+```sql
+SELECT DATE_FORMAT(datetime, '%Y-%m-%d %H:%i:%s')
+```
+
 
 # 2. Aggregation Function
 1. `COUNT`(col), `COUNT`(*)
