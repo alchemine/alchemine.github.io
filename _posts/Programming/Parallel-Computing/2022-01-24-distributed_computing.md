@@ -1,5 +1,5 @@
 ---
-title: Distributed computing in seperated networks
+title: Distributed computing in separate networks
 tags: ParallelComputing
 ---
 
