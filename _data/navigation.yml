@@ -89,8 +89,6 @@ docs-en:
         url: /archive.html?tag=Database
       - title:  Linux
         url: /archive.html?tag=Linux
-      - title:  Mac
-        url: /archive.html?tag=Mac
       - title:  Docker
         url: /archive.html?tag=Docker
       - title:  Parallel Computing
@@ -99,6 +97,8 @@ docs-en:
         url: /archive.html?tag=R
       - title:  Coding Test
         url: /archive.html?tag=CodingTest
+      - title:  Regular Expression
+        url: /archive.html?tag=RegularExpression
       - title:  Git
         url: /archive.html?tag=Git
       - title:  Base
