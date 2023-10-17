@@ -15,10 +15,10 @@ tags: Programming_Etc
 ## 1.1 DDNS 설정
 고정 IP를 사용하고 있지 않다면 DDNS를 등록하여 고정 IP 처럼 사용할 수 있다.
 
-![](../../../images/2023-06-11-00-45-28.png)
+![](/images/Programming/Etc/2023-06-10-wsl_connection/2023-06-11-00-45-28.png)
 
 ## 1.2 포트포워딩 설정
-![](../../../images/2023-06-11-01-03-15.png)
+![](/images/Programming/Etc/2023-06-10-wsl_connection/2023-06-11-01-03-15.png)
 
 
 # 2. Windows 설정
@@ -60,7 +60,7 @@ tags: Programming_Etc
 ## 2.2 방화벽 설정
 방화벽 고급설정의 인바운드 규칙에서 원하는 포트에 대한 방화벽 설정을 추가한다.
 
-![](../../../images/2023-06-11-01-11-07.png)
+![](/images/Programming/Etc/2023-06-10-wsl_connection/2023-06-11-01-11-07.png)
 
 
 # 3. WSL2 설정

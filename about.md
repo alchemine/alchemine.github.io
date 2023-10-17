@@ -28,7 +28,7 @@ sidebar:
   nav: docs-en
 ---
 
-![picture 1](images/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
+![picture 1](/images/About/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
 - Name: 윤동진(Dongjin Yoon)
 - Email: djyoon0223@gmail.com
 - Github: [https://github.com/alchemine](https://github.com/alchemine)
@@ -167,7 +167,7 @@ Differential Evolution을 이용하여 목적함수를 최적화시키는 편입
     계산된 지표의 평균을 각 목적함수의 가중치로 하여 가중평균된 포트폴리오를 최종 포트폴리오로 선택
 6. **최종 결과** <br>
 2016년~2020년 약 5년 간 S&P500과 비교하여 평균적으로 27% 높은 Sharpe ratio, 225% 높은 [VWR](https://www.crystalbull.com/sharpe-ratio-better-with-log-returns/)을 보여주었음
-![picture 2](images/98bb73c72a36c0e243b243758ec306ec5a2ec543653dce6d5f574b5227bd11e5.png)  
+![picture 2](/images/About/98bb73c72a36c0e243b243758ec306ec5a2ec543653dce6d5f574b5227bd11e5.png)  
   
 </div>
 </details>

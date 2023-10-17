@@ -168,10 +168,10 @@ Description
 ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg){:width="20" height="20"}{:.border}
 {% endhighlight %}
 
-![picture 1](images/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
+![picture 1](/images/About/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
 
 {% highlight markdown %}
-![picture 1](images/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
+![picture 1](/images/About/1debeb5e9da7c61b8c9a22844135247323ad609fb63cc371cffd485925c42836.jpg)  
 {% endhighlight %}
 
 ---
