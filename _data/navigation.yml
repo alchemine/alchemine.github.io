@@ -115,7 +115,7 @@ docs-en:
       - title:  PyTorch
         url: /archive.html?tag=PyTorch
       - title:  Hands-On ML
-        url: /archive.html?tag=Hands-On-ML
+        url: /archive.html?tag=HandsOnML
       - title:  Visualization
         url: /archive.html?tag=Visualization
       - title:  Natural Language Processing
@@ -138,15 +138,15 @@ docs-en:
   - title:      Study
     children:
       - title:  Fluent Python
-        url: /archive.html?tag=Study_Fluent-Python
+        url: /archive.html?tag=Study_FluentPython
       - title:  AWS Data Engineering
-        url: /archive.html?tag=Study_AWS-Data-Engineering
+        url: /archive.html?tag=Study_AWSDataEngineering
       - title:  Portfolio with Python
-        url: /archive.html?tag=Study_Portfolio-With-Python
+        url: /archive.html?tag=Study_PortfolioWithPython
       - title:  Time Series Analysis
-        url: /archive.html?tag=Study_Time-Series-Analysis
+        url: /archive.html?tag=Study_TimeSeriesAnalysis
       - title:  Big Data Computing
-        url: /archive.html?tag=Study_Big-Data-Computing
+        url: /archive.html?tag=Study_BigDataComputing
       - title:  Investments
         url: /archive.html?tag=Study_Investments
 
@@ -159,7 +159,5 @@ docs-en:
     children:
       - title:  Music
         url: /archive.html?tag=Music
-      - title:  Diary
-        url: /archive.html?tag=Diary
       - title:  Etc
         url: /archive.html?tag=Etc
