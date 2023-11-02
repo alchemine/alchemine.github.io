@@ -6,6 +6,8 @@ tags: AWS
 <!--more-->
 
 # Cointegration with S3
+- Lambda 작업환경에서 `/tmp` 만 접근 가능.
+
 ## Download From S3 Bucket
 ```python
 import boto3
@@ -24,36 +26,23 @@ def lambda_handler(event, context):
     download_path = '/tmp/{}{}'.format(uuid.uuid4(), tmpkey)
     s3_client.download_file(bucket, key, download_path)
 ```
+- 파일의 크기가 큰 경우(>1MB?), timeout(3초) 에러가 발생
 
-## Download From S3 Bucket
+
+## Uplad To S3 Bucket
 ```python
 import boto3
-import os
-import sys
-import uuid
-from urllib.parse import unquote_plus
-from PIL import Image
             
 
 s3_client = boto3.client('s3')
             
 
-def resize_image(image_path, resized_path):
-  with Image.open(image_path) as image:
-    image.thumbnail(tuple(x / 2 for x in image.size))
-    image.save(resized_path)
-
-      
 def lambda_handler(event, context):
   for record in event['Records']:
     bucket = record['s3']['bucket']['name']
     key    = unquote_plus(record['s3']['object']['key'])
     tmpkey = key.replace('/', '')
     
-    download_path = '/tmp/{}{}'.format(uuid.uuid4(), tmpkey)
-    upload_path   = '/tmp/resized-{}'.format(tmpkey)
-    
-    s3_client.download_file(bucket, key, download_path)
-    resize_image(download_path, upload_path)
-    s3_client.upload_file(upload_path, bucket.replace('bucket', 'resized-bucket'), 'resized-{}'.format(key))
+    upload_path = '/tmp/{}'.format(tmpkey)
+    s3_client.upload_file(upload_path, bucket, 'resized-{}'.format(key))
 ```
