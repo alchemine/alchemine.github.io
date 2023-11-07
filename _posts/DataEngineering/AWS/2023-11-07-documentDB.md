@@ -91,6 +91,11 @@ Cluster storage volume에 데이터를 쓰고, 읽는 등 DB의 처리 능력을
 ## Scaling Reads
 1. 애플리케이션에 읽기 용량이 더 필요하거나 줄어들면 cluster에 replica를 추가/제거할 수 있음 (보통 10분 미만)
 2. [Amazon DocumentDB 읽기 환경설정](https://docs.aws.amazon.com/ko_kr/documentdb/latest/developerguide/how-it-works.html#durability-consistency-isolation.read-preferences) 참고
+3. Replica set 권장 시나리오
+    1. Primary instance CPU 사용률(`CPUUtilization`) ≈ 100%
+    2. Buffer cache hit ratio(`BufferCacheHitRatio`) ≈ 0%
+    3. 개별 instance의 connection / cursor 한계에 도달(`DatabaseConnections`)
+
 
 
 ---
