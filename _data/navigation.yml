@@ -83,24 +83,26 @@ docs-en:
     children:
       - title:  Python
         url: /archive.html?tag=Python
-      - title:  Design Patterns
-        url: /archive.html?tag=DesignPatterns
       - title:  Database
         url: /archive.html?tag=Database
+      - title:  Visualization
+        url: /archive.html?tag=Visualization
       - title:  Linux
         url: /archive.html?tag=Linux
       - title:  Docker
         url: /archive.html?tag=Docker
-      - title:  Parallel Computing
-        url: /archive.html?tag=ParallelComputing
-      - title:  R
-        url: /archive.html?tag=R
-      - title:  Coding Test
-        url: /archive.html?tag=CodingTest
       - title:  Regular Expression
         url: /archive.html?tag=RegularExpression
+      - title:  Parallel Computing
+        url: /archive.html?tag=ParallelComputing
+      - title:  Design Patterns
+        url: /archive.html?tag=DesignPatterns
+      - title:  Coding Test
+        url: /archive.html?tag=CodingTest
       - title:  Git
         url: /archive.html?tag=Git
+      - title:  R
+        url: /archive.html?tag=R
       - title:  Base
         url: /archive.html?tag=Programming_Base
       - title:  Etc
@@ -121,8 +123,6 @@ docs-en:
         url: /archive.html?tag=PyTorch
       - title:  Hands-On ML
         url: /archive.html?tag=HandsOnML
-      - title:  Visualization
-        url: /archive.html?tag=Visualization
       - title:  Natural Language Processing
         url: /archive.html?tag=NLP
       - title:  Recommendation System
