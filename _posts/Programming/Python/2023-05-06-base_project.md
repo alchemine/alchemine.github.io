@@ -1,29 +1,170 @@
 ---
-title: Base Project Structure for Machine Learning Project
+title: Base Project Structure
 tags: Python
 ---
 
-<!--more-->
-
-머신러닝 프로젝트를 시작할 때, 매번 거의 비슷한 개발환경을 만드는데 자주 사용될 것 같은 부분들만을 모아 간단한 프로젝트로 만들어보았다. \
-Github에 설명들을 간략하게 적어놨지만, 여기선 조금 더 자세히 나의 프로그래밍 철학과 목표에 대해 길게 호흡을 잡고 이야기해보려고 한다.
-
-
-# 1. Repository
+# Repository
 [https://github.com/alchemine/base-project](https://github.com/alchemine/base-project)
+<!--more-->
+---
 
+# base-project: Base Project Structure
 
-# 2. What's important?
-## 2.1 What's HAPPINESS?
-우리는 유한한 자원 속에서 살아간다. 유한한 시간, 유한한 체력과 유한한 정신력을 가지고 살고 있다. \
-일은 일대로 하고, 힘은 힘대로 빠지는데 결국 밑빠진 독에 물 붓기같은 상황을 마주하지 않기 위해선, \
-우리는 주어진 현재 상태(state)에서 행복(reward)을 최대화시킬 수 있는 **최적**의 선택(action)을 해야한다.
+# Summary
+### 1. Entrypoint
+[`base_project/launch.py`](https://github.com/alchemine/base-project/blob/main/base_project/launch.py)
+```bash
+git clone https://github.com/alchemine/base-project.git
+cd base-project
+python -m base_project.launch --dev
+```
 
-여태껏 프로그래머로서 경험해온 행복(혹은 anti-stress)은 크게 2가지로 나누어볼 수 있었다.
+```
+  1            | __main__.main()
+  1.1          | main1()
+  1.1.1        | main11()
+* 1.1.1        | 0.00s (0.00m)
+  1.1.2        | main12()
+* 1.1.2        | 0.00s (0.00m)
+* 1.1          | 0.00s (0.00m)
+  1.2          | main2()
+  1.2.1        | main21()
+* 1.2.1        | 0.00s (0.00m)
+* 1.2          | 0.00s (0.00m)
+* 1            | 0.00s (0.00m)
+```
 
-1. 편한 협업
-2. 빠른 실행 속도
+### 2. `common`: Commonly used package
+`from base_project.common import *`
 
-이중에서 **편한 협업**에 대해 이야기를 해보고자 한다.
+### 3. `configs.yaml`: Configuration
 
-## 2.2 Cooperation
+---
+
+# 1. Directory Structure
+```bash
+base-project
+├── base_project
+│   ├── common
+│   │   ├── __init__.py
+│   │   ├── env.py
+│   │   ├── depth_logging.py
+│   │   ├── timer.py
+│   │   └── utils.py
+│   ├── _utils.py
+│   ├── configs.yaml
+│   └── launch.py
+├── docker-compose.yml
+├── Dockerfile
+├── README.md
+└── .gitignore
+```
+
+# 2. `common` Package
+## 2.1 Import
+```python
+from base_project.common import *
+```
+See details in [base_project/common/\_\_init\_\_.py](https://github.com/alchemine/base-project/blob/main/base_project/common/__init__.py).
+
+## 2.2 Module Dependency
+```
+     env.py      : Environment module (library importing, option setting)
+       ↓
+    utils.py     : Utility module (function, class)
+       ↓
+    timer.py     : Timer module
+       ↓
+depth_logging.py : Depth logging module
+```
+
+## 2.3 Timer
+- Context manager
+    - `Timer(name)`
+        ```python
+        from base_project.common.timer import Timer
+      
+        with Timer("Code1"):
+            sleep(1)
+        ```
+
+        ```
+        * Code1        | 1.00s (0.02m)
+      ```
+- Decorator
+    - `@Timer(name)`
+    - `@T`
+      ```python
+      from base_project.common.timer import Timer, T
+        
+      @Timer("fn1")
+      def fn1():
+          sleep(1)
+            
+      @T
+      def fn2():
+          sleep(1)
+      
+      fn1()
+      fn2()
+      ```
+
+      ```
+      * fn1          | 1.00s (0.02m)
+      * Elapsed time | 1.00s (0.02m)
+      ```
+
+# 2.4 Depth Logging
+- Decorator: `@D`
+    ```python
+    from base_project.common.depth_logging import D
+      
+    @D
+    def main(args):
+        main1()
+        main2()
+    @D
+    def main1():
+        main11()
+        main12()
+    @D
+    def main11():
+        main111()
+        main112()
+    @D
+    def main111():
+        return
+    @D
+    def main112():
+        return
+    @D
+    def main12():
+        return
+    @D
+    def main2():
+        main21()
+    @D
+    def main21():
+        return
+        
+    main()
+    ```
+
+    ```
+      1            | __main__.main()
+      1.1          | main1()
+      1.1.1        | main11()
+      1.1.1.1      | main111()
+    * 1.1.1.1      | 0.00s (0.00m)
+      1.1.1.2      | main112()
+    * 1.1.1.2      | 0.00s (0.00m)
+    * 1.1.1        | 0.00s (0.00m)
+      1.1.2        | main12()
+    * 1.1.2        | 0.00s (0.00m)
+    * 1.1          | 0.00s (0.00m)
+      1.2          | main2()
+      1.2.1        | main21()
+    * 1.2.1        | 0.00s (0.00m)
+    * 1.2          | 0.00s (0.00m)
+    * 1            | 0.00s (0.00m)
+    ```
