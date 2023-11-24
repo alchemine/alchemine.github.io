@@ -12,8 +12,19 @@ All in pure Python. No front‑end experience required.
 <!--more-->
 ---
 
-# Streamit
+# Introduction
+## Streamlit
 복잡한 front-end 기술이 필요하지 않을 정도의 간단한 데이터 대시보드 어플리케이션을 만들 수 있는 python library
+
+## Installation
+```bash
+pip install streamlit
+```
+
+## Start Demo
+```bash
+streamlit hello
+```
 
 
 # 1. Three Simple Principles
@@ -36,7 +47,7 @@ Stremlit official site에서 github 연동을 통해 간단하히 애플리케�
 
 
 # 3. Features
-## 1) Deployment with Docker-compose
+## 1) Deployment with Docker & Poetry
 - Reference: [https://github.com/alchemine/diabetes-prediction](https://github.com/alchemine/diabetes-prediction)
 
 1. `Dockerfile`
@@ -75,3 +86,5 @@ Stremlit official site에서 github 연동을 통해 간단하히 애플리케�
         ipc: host
         tty: true
     ```
+
+## 2) Session
