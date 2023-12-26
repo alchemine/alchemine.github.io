@@ -162,7 +162,5 @@ docs-en:
         
   - title:      Another Life
     children:
-      - title:  Music
-        url: /archive.html?tag=Music
       - title:  Etc
         url: /archive.html?tag=Etc
