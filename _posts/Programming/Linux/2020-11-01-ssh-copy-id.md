@@ -1,40 +1,15 @@
 ---
-title: Ubuntu ssh setting
+title: ssh-copy-id
 tags: Linux
 ---
 
-# Remarks
-이 글은 [https://jimnong.tistory.com/713](https://jimnong.tistory.com/713)의 글을 참조하여 작성되었습니다.
-
 <!--more-->
 
----
+`ssh`로 서버에 접속할 때 인증되지 않은 client인 경우 매번 비밀번호를 물어봅니다.  
+Server가 인증된 client를 구별하기 위해 `.ssh/authorized_keys` 안에 있는 public key(client의 `.ssh/id_rsa.pub`)들을 사용합니다.  
 
-### 1. `openssh-server` 설치
+Client 단에서 public key를 손쉽게 server로 전송시켜주는 명령어가 있으니, 바로 `ssh-copy-id` 입니다.
 
-        $ sudo apt-get update
-        $ sudo apt-get install openssh-server
-        $ dpkg -l | grep openssh  // 설치 확인
-
-<br>
-### 2. ssh server service 시작
-
-        $ sudo service ssh start
-
-<br>
-### 3. 확인
-
-        $ service --status-all | grep +  // 실행 중인 service 목록
-        $ sudo netstat -antp  // Port 번호 확인
-
-<br>
-### 4. ssh에서 root 계정 사용할 수 있게 하기
-
-        $ sudo vi /etc/ssh/sshd_config
-
-          // sshd_config
-          ...
-          PermitRootLogin yes
-          ...
-
-        $ sudo service ssh restart
+```
+$ ssh-copy-id USER@IP [-p PORT]
+```
