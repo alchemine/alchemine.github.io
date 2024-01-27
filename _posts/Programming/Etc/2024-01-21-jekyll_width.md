@@ -21,11 +21,3 @@ $layout: (
 
 ...
 ```
-
----
-
-### 변경 전
-![](/images\Programming\Etc\2024-01-21-jekyll_width\image(2).png)
-
-### 변경 후
-![](/images\Programming\Etc\2024-01-21-jekyll_width\image(1).png)
