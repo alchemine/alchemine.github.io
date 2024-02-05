@@ -16,25 +16,25 @@ Dev container는 `Visual Studio Code`(이하 `VSCode`) 혹은 `JetBrains PyCharm
 `VSCode`를 기준으로 설명하지만 `PyCharm`이나 다른 IDE에서도 대동소이한 방식으로 dev container 기능을 사용할 수 있다.
 
 ## 2.1 `dev containers` extension 설치
-![Alt text](image.png)
+![Alt text](/images/Programming/Python/2024-02-05-dev_container/image.png)
 
 ## 2.2 Configuration 추가
-![Alt text](image-1.png)
+![Alt text](/images/Programming/Python/2024-02-05-dev_container/image-1.png)
 
 ## 2.3 설정에 맞춰 선택
-![Alt text](image-2.png)
+![Alt text](/images/Programming/Python/2024-02-05-dev_container/image-2.png)
 - 주로 `Dockerfile`, `docker-compose` 을 사용하여 기존 docker 환경을 사용한다.
 
 ## 2.4 추가 기능 설치
-![Alt text](image-3.png)
+![Alt text](/images/Programming/Python/2024-02-05-dev_container/image-3.png)
 - `SSH`, `vim` 등 일반적으로 사용되는 기능들을 선택하여 container에 설치할 수 있다.
 
 ## 2.5 `devcontainer.json` 확인
-![Alt text](image-4.png)
+![Alt text](/images/Programming/Python/2024-02-05-dev_container/image-4.png)
 - 환경변수를 추가하거나, working directory의 위치를 변경하는 등 여러가지 설정이 가능하다.
 
 ## 2.6 Container 생성
-![Alt text](image-5.png)
+![Alt text](/images/Programming/Python/2024-02-05-dev_container/image-5.png)
 
 
 # 3. 환경변수 추가
@@ -62,7 +62,7 @@ OPENAI_API_KEY="..."
 ```
 
 ### 3.2.2 env file 적용
-#### 3.2.2.1 Dockerfile or image
+#### 3.2.2.1 Dockerfile or /images/Programming/Python/2024-02-05-dev_container/image
 `devcontainer.json`에 다음과 같이 `runArgs`를 추가한다.
 ```
 "runArgs": ["--env-file",".devcontainer/devcontainer.env"]
