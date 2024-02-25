@@ -8,6 +8,8 @@ tags: Python
 신뢰성과 일관성 있는 python 코드 작성을 위해 linter로서 [`Ruff`](https://github.com/astral-sh/ruff), code formatter로서 [`Black`](https://github.com/psf/black)을 사용하고 있다. \
 이번 글에선 vscode에서 `devcontainer`, `pre-commit`, `ruff`, `black`을 통합하여 자연스럽게 사용할 수 있도록 자동화한 방법에 대해서 소개해보고자 한다.
 
+다양한 기술들과 기능들을 사용하는 것도 좋지만, 무엇보다 중요한 것은 팀 구성원들이 코드에 대한 유지보수에 대한 중요성을 알고 자발적으로 코드의 품질을 높일 수 있도록 독려하는 것이다!
+
 # File structure
 ```bash
 .
