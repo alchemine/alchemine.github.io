@@ -35,11 +35,10 @@ README at: https://github.com/devcontainers/templates/tree/main/src/docker-exist
       "context": "..",
       "dockerfile": "../Dockerfile"
     },
-    "containerEnv": { "": "" },
-    "postCreateCommand": "",
     "customizations": {
       "vscode": {
         "extensions": [
+          "ms-python.python",
           "ms-toolsai.jupyter",
           "GitHub.vscode-pull-request-github",
           "esbenp.prettier-vscode",
@@ -47,8 +46,7 @@ README at: https://github.com/devcontainers/templates/tree/main/src/docker-exist
           "eamodio.gitlens",
           "GitHub.copilot",
           "charliermarsh.ruff",
-          "elagil.pre-commit-helper",
-          "ms-python.python"
+          "elagil.pre-commit-helper"
         ],
         "settings": {
           "terminal.integrated.defaultProfile.linux": "bash",
@@ -71,7 +69,9 @@ README at: https://github.com/devcontainers/templates/tree/main/src/docker-exist
     "features": {
       "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
     },
-    "mounts": ["source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind"]
+    "mounts": ["source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind"],
+    "containerEnv": { "": "" },
+    "postCreateCommand": ""
   }
   ```
 
@@ -111,9 +111,9 @@ pre-commit으로서 사용되는 도구들과 설정들을 해당 파일에서 �
           args: [--fix]
   ```
 3. Git에 적용
-    ```bash
-    pre-commit install
-    ```
+  ```bash
+  pre-commit install
+  ```
 
 # 3. Ruff
 - [https://docs.astral.sh/ruff/](https://docs.astral.sh/ruff/)
