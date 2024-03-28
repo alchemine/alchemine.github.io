@@ -117,14 +117,16 @@ docs-en:
     children:
       - title:  Base
         url: /archive.html?tag=MachineLearning_Base
-      - title:  TensorFlow
-        url: /archive.html?tag=TensorFlow
-      - title:  PyTorch
-        url: /archive.html?tag=PyTorch
-      - title:  Hands-On ML
-        url: /archive.html?tag=HandsOnML
+      - title:  LangChain
+        url: /archive.html?tag=LangChain
       - title:  Natural Language Processing
         url: /archive.html?tag=NLP
+      - title:  PyTorch
+        url: /archive.html?tag=PyTorch
+      - title:  TensorFlow
+        url: /archive.html?tag=TensorFlow
+      - title:  Hands-On ML
+        url: /archive.html?tag=HandsOnML
       - title:  Recommendation System
         url: /archive.html?tag=RecommendationSystem
       - title:  Paper
