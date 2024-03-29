@@ -1,6 +1,6 @@
 ---
 title: Official Prompts
-tags: NLP
+tags: LangChain
 ---
 
 <!--more-->
