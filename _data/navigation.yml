@@ -91,6 +91,8 @@ docs-en:
         url: /archive.html?tag=Linux
       - title:  Docker
         url: /archive.html?tag=Docker
+      - title:  FastAPI
+        url: /archive.html?tag=FastAPI
       - title:  Regular Expression
         url: /archive.html?tag=RegularExpression
       - title:  Parallel Computing
