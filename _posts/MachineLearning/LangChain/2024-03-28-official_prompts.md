@@ -8,6 +8,7 @@ tags: LangChain
 LangChain 코드에서 내부적으로 사용하는 prompt들에 대하여 기능 및 사용처 등을 적어놓고 나중에 필요한 경우가 오면 baseline으로 사용하면 좋을 것 같다.
 
 
+
 - [`langchain.chains.openai_functions.tagging._TAGGING_TEMPLATE`](https://github.com/langchain-ai/langchain/blob/fdfb51ad8daffa1e6e5c6889fd71627697de178e/libs/langchain/langchain/chains/openai_functions/tagging.py#L23)
     ```python
     _TAGGING_TEMPLATE = """Extract the desired information from the following passage.
@@ -55,3 +56,6 @@ LangChain 코드에서 내부적으로 사용하는 prompt들에 대하여 기�
     2. 참고사항
         - 참고할 정보를 `context`라고 지칭하는 게 일반적이라고 생각했는데 여기에선 `passage`라는 단어를 사용하였다. `passage`가 대세인걸까?
         - `... from the following passage ... Passage: ...` 이런 구조는 자주 써먹을 수 있을 것 같다.
+
+- [`langchain/langchain/output_parsers/format_instructions.py`] \
+    프롬프트 맛집
