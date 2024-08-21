@@ -114,6 +114,8 @@ docs-en:
     children:
       - title:  AWS
         url: /archive.html?tag=AWS
+      - title:  Kubernetes
+        url: /archive.html?tag=Kubernetes
 
   - title:      Machine Learning
     children:
