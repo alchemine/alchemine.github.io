@@ -121,6 +121,8 @@ docs-en:
     children:
       - title:  Base
         url: /archive.html?tag=MachineLearning_Base
+      - title:  RAG
+        url: /archive.html?tag=RAG
       - title:  LangChain
         url: /archive.html?tag=LangChain
       - title:  Natural Language Processing
