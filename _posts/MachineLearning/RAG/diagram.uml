@@ -1,0 +1,14 @@
+title 시스템 흐름도
+
+participant user
+participant view
+participant agents
+participant database
+
+user->view: 요청 (텍스트 입력)
+view->agents: API 호출 (RAG 모델 실행 요청)
+agents->database: 설정 정보 질의
+database-->agents: 설정 정보 응답
+agents->agents: RAG 모델 실행
+agents-->view: 결과 반환
+view->user: 결과 표시
